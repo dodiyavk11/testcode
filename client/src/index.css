@@ -9,3 +9,56 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.tabs {
+    width: 71%;
+    margin: 0 auto;
+}
+
+li {
+   float: left;
+    width: 49%;
+    border: 1px solid grey;
+    padding: 10px 3px;
+}
+.resultview {
+    display: none;
+}
+.resultview ,.productview{
+    display: none;
+}
+.tabsview {
+    padding: 62px 16px;
+}
+li.Active.tab {
+    background: #e95fa5;
+}
+.tabsview {
+    border: 1px solid #ccc;
+}
+ul.product {
+    display: block;
+    width: 100%;
+    padding: 0px;
+    list-style: none;
+}
+.header {
+    background: #cb2e2e;
+    padding: 24px 100px;
+    text-align: left;
+    font-size: 44px;
+}
+
+button.validatebtn {
+    margin: 32px 8px;
+    background: #f14d4d;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 69px;
+    border: 0px solid;
+}
+.activeview{
+
+  display: block;
+
+}
